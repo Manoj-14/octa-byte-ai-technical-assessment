@@ -13,11 +13,6 @@ output "vpc_id" {
   value       = module.vpc.vpc_id
 }
 
-output "registry_id" {
-  description = "registry id"
-  value       = module.ecr.registry_id
-}
-
 output "repository_url" {
   description = "ecr registry url"
   value       = module.ecr.repository_url
