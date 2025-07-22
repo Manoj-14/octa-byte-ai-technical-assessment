@@ -1,5 +1,5 @@
 ---
-name: "open-telemetry-iac"
+name: "vprofile-ininfrastructure-workflow"
 on:
     push:
         branches:
