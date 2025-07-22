@@ -1,5 +1,5 @@
 data "aws_iam_user" "devops" {
-  user_name = "otel"
+  user_name = "devops"
 }
 
 resource "aws_iam_role" "cluster_role" {
