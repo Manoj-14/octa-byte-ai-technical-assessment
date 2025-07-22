@@ -13,7 +13,7 @@ variable "availability_zones" {
 variable "vpc_cidr" {
   type        = string
   default     = "10.0.0.0/16"
-  description = "cidr for vpc"
+  description = "CIDR for vpc"
 }
 
 variable "public_subnet_cidrs" {
